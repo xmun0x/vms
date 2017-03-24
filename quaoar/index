@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>LEPTON CMS 2series - hello world</title>  
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" type="text/css" href="http://192.168.0.190/upload/templates/lepton2/frontend/lib_search/frontend.css" media="all" />
+<script type="text/javascript" src="http://192.168.0.190/upload/templates/lepton2/frontend/lib_search/frontend.js"></script>
+  
+	<link rel="stylesheet" type="text/css" href="http://192.168.0.190/upload/templates/lepton2/css/template.css" media="screen,projection" />
+	<link rel="stylesheet" type="text/css" href="http://192.168.0.190/upload/templates/lepton2/css/print.css" media="print" />
+</head>
+<body>
+<div id="site">
+	<div id="head">
+	<a href="http://192.168.0.190/upload/"><img class="head_img" src="http://192.168.0.190/upload/templates/lepton2/img/1.jpg" width="900" height="180" alt="image" /></a>
+	</div>
+	<div id="headtitle">LEPTON CMS 2series</div>
+
+	<!-- Left Column -->
+	<div id="side">	
+		<div id="navi1">
+		<!-- Navigation linke Seite (Hauptnavigation) -->
+    
+<!-- show_menu2 -->
+ <ul class="menu-top">
+    <li class="menu-current menu-first menu-last"><a href="http://192.168.0.190/upload/page/hello-world.php" title="hello world">hello world</a>    </li>
+ </ul>
+
+		</div>
+		
+<!-- OPTIONAL: display frontend search -->
+ 
+<!-- OPTIONAL: display frontend search -->
+	<div id="search">
+		<form name="search" action="http://192.168.0.190/upload/search/index.php" method="get">
+			<fieldset>
+				<legend>Search:</legend>
+				<input type="text" name="string" class="search_string" />
+				<input type="submit" name="lep_search" id="lep_search" value="Search" />
+			</fieldset>
+		</form>
+	</div>
+<!-- END frontend search -->
+      
+<!-- END frontend search -->
+
+<!-- OPTIONAL: display frontend login -->
+<div id="login">
+</div>
+<!-- END frontend login -->
+	<div id="frontedit"> </div>
+</div>    <!-- END left column -->   
+
+	<!-- Content -->
+	
+	<div id="cont">
+	<a class="section_anchor" id="lep_1"></a>
+<!-- comming from TWIG -->
+<!-- This is build by the frontend-template! -->
+<iframe src="https://doc.lepton-cms.org/_packinstall/start-package2.html" width="100%" height="800" frameborder="0" scrolling="auto">
+Your browser does not support inline frames.<br />Click on the link below to visit the website that was meant to be shown here...<br />
+<a href="https://doc.lepton-cms.org/_packinstall/start-package2.html" target="_blank">https://doc.lepton-cms.org/_packinstall/start-package2.html</a>
+</iframe>
+<!-- end wrapper frontend-template here -->
+	
+	</div>
+	<br style="clear: both;" />
+	<div id="foot">
+		</div>
+
+<!-- Block Bottom -->
+	<div id="basic">
+	<div id="links">settings/website footer</div>
+	<div id="design"><a href='http://cms-lab.com'>Design by CMS-LAB</a></div>
+	</div>
+</div>
+</body>
+</html>

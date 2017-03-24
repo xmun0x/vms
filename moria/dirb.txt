@@ -1,0 +1,27 @@
+# dirb http://192.168.1.69/
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Thu Mar 23 22:27:24 2017
+URL_BASE: http://192.168.1.69/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.1.69/ ----
++ http://192.168.1.69/cgi-bin/ (CODE:403|SIZE:210)                               
++ http://192.168.1.69/index.php (CODE:200|SIZE:85)                               
+==> DIRECTORY: http://192.168.1.69/w/                                            
+                                                                                 
+---- Entering directory: http://192.168.1.69/w/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+-----------------
+END_TIME: Thu Mar 23 22:27:30 2017
+DOWNLOADED: 4612 - FOUND: 2

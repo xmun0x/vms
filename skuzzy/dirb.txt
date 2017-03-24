@@ -1,0 +1,98 @@
+# dirb http://192.168.1.2
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Fri Mar 24 00:21:54 2017
+URL_BASE: http://192.168.1.2/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.1.2/ ----
++ http://192.168.1.2/index.html (CODE:200|SIZE:1297)                                                               
+==> DIRECTORY: http://192.168.1.2/smblogin/                                                                        
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/                                                             
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/                                                       
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/                                                   
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/                                          
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/                                 
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/                      
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/                
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/            
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/    
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/
++ http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/xmlrpc.php (CODE:200|SIZE:450)
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/program/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/program/ ----
+==> DIRECTORY: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/program/font/
+                                                                                                                   
+---- Entering directory: http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/program/font/ ----
++ http://192.168.1.2/smblogin/custom-log/refer/del/arquivos/_archive/autodeploy/Links/pdf/portals/images3/forgotpassword/tuscany/send-password/catalog/tell_friend/queues/month/checking/mode/trap/affiliates/dba/program/font/index.html (CODE:200|SIZE:527)
+                                                                               /autodeploy/Links/pdf/portals/images
+-----------------
+END_TIME: Fri Mar 24 00:23:00 2017
+DOWNLOADED: 119912 - FOUND: 3

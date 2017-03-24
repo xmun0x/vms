@@ -1,0 +1,15 @@
+# john --form=dynamic_6 hashes.txt 
+Using default input encoding: UTF-8
+Loaded 8 password hashes with 8 different salts (dynamic_6 [md5(md5($p).$s) 128/128 SSE2 4x3])
+Press 'q' or Ctrl-C to abort, almost any other key for status
+spanky           (Ori)
+fuckoff          (Maeglin)
+rainbow          (Oin)
+flower           (Balin)
+abcdef           (Dain)
+warrior          (Nain)
+darkness         (Thrain)
+hunter2          (Fundin)
+8g 0:00:00:00 DONE 2/3 (2017-03-23 22:45) 88.88g/s 394111p/s 543444c/s 543444C/s PHOENIX..spider2
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

@@ -1,0 +1,40 @@
+
+Starting Nmap 7.25BETA2 ( https://nmap.org ) at 2017-03-24 00:19 EDT
+Nmap scan report for skuzzy.home (192.168.1.2)
+Host is up (0.00032s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.56 seconds
+
+# nmap -sS -Pn 192.168.1.2
+
+Starting Nmap 7.25BETA2 ( https://nmap.org ) at 2017-03-24 00:40 EDT
+Nmap scan report for skuzzy.home (192.168.1.2)
+Host is up (0.00065s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3260/tcp open  iscsi
+
+Nmap done: 1 IP address (1 host up) scanned in 0.21 seconds
+
+# nmap -sO 192.168.1.2
+
+Starting Nmap 7.25BETA2 ( https://nmap.org ) at 2017-03-24 00:49 EDT
+Nmap scan report for skuzzy.home (192.168.1.2)
+Host is up (0.00042s latency).
+Not shown: 252 filtered protocols
+PROTOCOL STATE         SERVICE
+1        open          icmp
+6        open          tcp
+17       open          udp
+47       open|filtered gre
+
+Nmap done: 1 IP address (1 host up) scanned in 1.39 seconds
+

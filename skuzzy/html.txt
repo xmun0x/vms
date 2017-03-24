@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Welcome!</title>
+
+</head>
+<body>
+<div style="width:500px; margin:0 auto;">
+<pre>
+    ______            _____ __                         __
+   / ____/      __   / ___// /____  __________  __  __/ /
+  / __/ | | /| / /   \__ \/ //_/ / / /_  /_  / / / / / / 
+ / /___ | |/ |/ /   ___/ / ,< / /_/ / / /_/ /_/ /_/ /_/  
+/_____/ |__/|__/   /____/_/|_|\__,_/ /___/___/\__, (_)   
+                                             /____/      
+</pre>
+<font face="arial,helvetica">
+Welcome to 'Ew Skuzzy!' - my first CTF VM. <br />
+Level: Intermediate.<br /><br />
+
+Forgive the name... I heard a kid say it in a shopping centre; Or, perhaps it's a hint? Or am I trolling? ¯\_(ツ)_/¯ <br /><br />
+
+You'll just have to fireup dirbuster and find out! <br /><br />
+
+Flags will be found along the way, if you're on the right path. <i>Most</i> flag data is not of any signifigance to the challenge.<br /><br />
+
+Hints available at /dev/null, or ping me on Twitter <a href="https://twitter.com/vortexau">@vortexau</a> (UTC+9.5 timezone, I'm probably sleeping while you're awake!).<br /><br />
+
+Please let me know what you think of the challenge once you're done, and submit your walkthroughs to VulnHub, I'm really looking forward to reading them!
+</font>
+</div>
+</html>

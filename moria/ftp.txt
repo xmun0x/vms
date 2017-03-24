@@ -1,0 +1,30 @@
+# nc 192.168.1.69 21
+220 Welcome Balrog!
+USER B^?^?^?^?
+331 Please specify the password.
+user Balrof^?^V
+331 Please specify the password.
+user Balrog
+331 Please specify the password.
+pass Mellon
+230 Login successful.
+pA^?
+500 Unknown command.
+pasv
+227 Entering Passive Mode (192,168,1,69,166,248).
+pwd
+257 "/prison"
+cwd /c^?var^?^?
+550 Failed to change directory.
+cwd /var/www/html
+250 Directory successfully changed.
+list
+150 Here comes the directory listing.
+226 Directory send OK.
+
+Results from another terminal window:
+# nc 192.168.1.69 42744
+drwxr-xr-x    2 0        0              23 Mar 12 20:38 QlVraKW4fbIkXau9zkAPNGzviT3UKntl
+-r--------    1 48       48             85 Mar 12 19:55 index.php
+-r--------    1 48       48         161595 Mar 11 23:12 moria.jpg
+drwxr-xr-x    3 0        0              15 Mar 12 04:50 w

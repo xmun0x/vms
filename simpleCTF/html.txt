@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta name="robots" content="noindex" />
+    <link rel="shortcut icon" type="image/ico" href="skins/images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="skins/default.css">
+
+    <title>Please Login / CuteNews</title>
+    <script type="text/javascript" src="skins/cute.js"></script>
+    
+    <style type="text/css"><!--  --></style>
+</head>
+
+<body>
+
+<div style="width: 800px; margin: 16px auto 8px auto;" id="wrapper">
+
+    <div class="header-text">Please Login</div>
+    <div class="header-time">12:11:31 Mar, 24</div>
+    <div class="navigation"><div style='padding: 5px;'><a href='/index.php'>CuteNews v.2.0.3</a></div></div>
+    <div id="contents">
+
+        <div class="breadcrumbs"></div>
+<form  name="login" id="login_form" action='/index.php' method="post">
+
+    <input type="hidden" name="action" value="dologin">
+    <table width="100%">
+        <tr>
+            <td width='80'>Username: </td>
+            <td width='160'><input tabindex=1 type="text" name="username" id="login_username" value="" style="width: 150px;"></td>
+            <td>&nbsp;<a href="?register">(register)</a></td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td><input tabindex="1" type="password" name="password" id="login_password" style='width: 150px'></td>
+            <td>&nbsp;<a href="?register&lostpass">(lost password)</a> </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td style='text-align:left'>
+                <input tabindex=1 accesskey='s' type=submit style="width:150px; background-color: #F3F3F3;" value='      Login...      '><br/>
+            </td>
+            <td style='text-align:left'><label for=rememberme title='Remember me for 30 days, Do not use on Public-Terminals!'>
+                    <input id=rememberme type=checkbox value=yes style="border:0px;" name=rememberme>Remember Me</label>
+            </td>
+        </tr>
+
+    </table>
+</form>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<div style="text-align: center;"><span style="color: #888888; font-size: 10px;">Execution time: 0.002 s.</span><div style="font-size: 9px">Powered by <a style="font-size: 9px" href="http://cutephp.com/cutenews/" target="_blank">CuteNews 2.0.3</a> &copy; 2002&ndash;2014 <a style="font-size: 9px" href="http://cutephp.com/" target="_blank">CutePHP</a>.<br>(unregistered)</div></div>
+</body></html>
